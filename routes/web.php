@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 });
 
-Route::get('/retrieve', 'ScrapeController@retrieve');
+Route::get('/{type}', 'ScrapeController@retrieve');
